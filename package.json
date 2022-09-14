@@ -1,0 +1,58 @@
+{
+  "name": "voice-input-button2",
+  "description": "New version of voice input button using new interface of iflytek voice dictation (the stream version).",
+  "version": "1.1.9",
+  "author": "ferrinweb <ferrinweb@gmail.com>",
+  "main": "dist/voice-input-button.js",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrinweb/voice-input-button2.git"
+  },
+  "keywords": [
+    "voice input",
+    "voice button",
+    "microphone input",
+    "speech input",
+    "iflytek",
+    "voice to text"
+  ],
+  "homepage": "https://github.com/ferrinweb/voice-input-button2/blob/master/README.md",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "jian-pinyin": "^0.2.3",
+    "vue": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "6.0.3",
+    "css-loader": "3.3.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "file-loader": "4.3.0",
+    "sass-loader": "8.0.0",
+    "sass": "latest",
+    "style-loader": "^1.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "4.36.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
